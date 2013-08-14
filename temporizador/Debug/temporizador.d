@@ -1,0 +1,1 @@
+temporizador.d: ../temporizador.c
