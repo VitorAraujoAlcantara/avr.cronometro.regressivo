@@ -14838,11 +14838,11 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="P+2" library="supply1" deviceset="VCC" device=""/>
 <part name="X1" library="con-ptr500" deviceset="AK500/2" device="" value="IN"/>
 <part name="X2" library="con-ptr500" deviceset="AK500/2" device="" value="OUT"/>
-<part name="J1" library="con-jack" deviceset="JACK-PLUG" device="1"/>
+<part name="J1" library="con-jack" deviceset="JACK-PLUG" device="1" value="PWR"/>
 <part name="X3" library="con-ptr500" deviceset="AK500/2" device="" value="BOTOEIRA"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="JP5" library="pinhead" deviceset="PINHD-1X10" device=""/>
-<part name="JP2" library="pinhead" deviceset="PINHD-1X10" device=""/>
+<part name="JP5" library="pinhead" deviceset="PINHD-1X10" device="" value="COMANDO"/>
+<part name="JP2" library="pinhead" deviceset="PINHD-1X10" device="" value="DISPLAY"/>
 <part name="P+3" library="supply1" deviceset="VCC" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>

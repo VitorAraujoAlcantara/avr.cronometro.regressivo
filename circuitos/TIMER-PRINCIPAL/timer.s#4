@@ -14816,7 +14816,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 </classes>
 <parts>
 <part name="IC1" library="atmel" deviceset="MEGA8-P" device=""/>
-<part name="IC2" library="linear" deviceset="78*" device="T" technology="05"/>
+<part name="IC2" library="linear" deviceset="78*" device="TV" technology="05" value="7805TV"/>
 <part name="C1" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="100U"/>
 <part name="C2" library="rcl" deviceset="CPOL-EU" device="E2.5-6" value="10U"/>
 <part name="C3" library="rcl" deviceset="C-EU" device="025-025X050" value="22Pf"/>

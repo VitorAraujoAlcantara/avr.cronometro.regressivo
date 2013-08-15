@@ -13811,32 +13811,24 @@ Source: 008-0260-0_E.pdf</description>
 &lt;/ul&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="JJM1C">
-<description>&lt;b&gt;HALF-SIZE AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
-Source: http://www.mew-europe.com/.. en_ds_61210_0001.pdf</description>
-<wire x1="7.0404" y1="5.9" x2="7.65" y2="5.2904" width="0.2032" layer="21" curve="-90"/>
-<wire x1="7.65" y1="5.2904" x2="7.65" y2="-5.2904" width="0.2032" layer="51"/>
-<wire x1="7.65" y1="-5.2904" x2="7.05" y2="-5.9" width="0.2032" layer="21" curve="-89.086271"/>
-<wire x1="7.05" y1="-5.9" x2="7.0404" y2="-5.9" width="0.2032" layer="21" curve="-0.902277"/>
-<wire x1="7.0404" y1="-5.9" x2="-7.0404" y2="-5.9" width="0.2032" layer="51"/>
-<wire x1="-7.0404" y1="-5.9" x2="-7.65" y2="-5.2904" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-7.65" y1="-5.2904" x2="-7.65" y2="5.2904" width="0.2032" layer="21"/>
-<wire x1="-7.65" y1="5.2904" x2="-7.0404" y2="5.9" width="0.2032" layer="21" curve="-90"/>
-<wire x1="-7.0404" y1="5.9" x2="7.0404" y2="5.9" width="0.2032" layer="51"/>
-<wire x1="-5" y1="5.9" x2="2.95" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="2.95" y1="5.9" x2="3" y2="5.9" width="0.2032" layer="21"/>
-<wire x1="7.65" y1="5.25" x2="7.65" y2="1.1" width="0.2032" layer="21"/>
-<wire x1="7.65" y1="-1.1" x2="7.65" y2="-5.25" width="0.2032" layer="21"/>
-<wire x1="7.05" y1="-5.9" x2="5.1" y2="-5.9" width="0.2032" layer="21"/>
-<wire x1="3.05" y1="-5.9" x2="-5.1" y2="-5.9" width="0.2032" layer="21"/>
-<wire x1="-5.05" y1="5.9" x2="2.95" y2="5.9" width="0.2032" layer="21"/>
-<pad name="C" x="6.55" y="0" drill="1.5" rot="R180"/>
-<pad name="1" x="4.05" y="5" drill="1.4" rot="R180"/>
-<pad name="2" x="4.05" y="-5" drill="1.4" rot="R180"/>
-<pad name="NO" x="-6.15" y="5" drill="1.4" rot="R180"/>
-<pad name="NC" x="-6.15" y="-5" drill="1.4" rot="R180"/>
-<text x="-5.08" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-5.08" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<package name="JS-M">
+<description>&lt;b&gt;Automotive Ultra-Miniature Power Relay&lt;/b&gt; NAiS&lt;p&gt;
+Source: http://www.mew-europe.com/.. en_ds_61211_0000.pdf</description>
+<wire x1="-10.9" y1="7.2904" x2="-10.2904" y2="7.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-10.2904" y1="7.9" x2="10.2904" y2="7.9" width="0.2032" layer="21"/>
+<wire x1="10.2904" y1="7.9" x2="10.9" y2="7.2904" width="0.2032" layer="21" curve="-90"/>
+<wire x1="10.9" y1="7.2904" x2="10.9" y2="-7.2904" width="0.2032" layer="21"/>
+<wire x1="10.9" y1="-7.2904" x2="10.2904" y2="-7.9" width="0.2032" layer="21" curve="-90"/>
+<wire x1="10.2904" y1="-7.9" x2="-10.2904" y2="-7.9" width="0.2032" layer="21"/>
+<wire x1="-10.2904" y1="-7.9" x2="-10.9" y2="-7.2904" width="0.2032" layer="21" curve="-90"/>
+<wire x1="-10.9" y1="-7.2904" x2="-10.9" y2="7.2904" width="0.2032" layer="21"/>
+<pad name="C" x="8.7" y="0" drill="1.3" rot="R180"/>
+<pad name="1" x="6.7" y="6" drill="1.3" rot="R180"/>
+<pad name="2" x="6.7" y="-6" drill="1.3" rot="R180"/>
+<pad name="NO" x="-5.5" y="6" drill="1.3" rot="R180"/>
+<pad name="NC" x="-5.5" y="-6" drill="1.3" rot="R180"/>
+<text x="-8.89" y="1.27" size="1.27" layer="25">&gt;NAME</text>
+<text x="-8.89" y="-1.27" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -13870,15 +13862,15 @@ Source: http://www.mew-europe.com/.. en_ds_61210_0001.pdf</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="JJM1-12V" prefix="K">
-<description>&lt;b&gt;HALF-SIZE AUTOMOTIVE RELAY&lt;/b&gt; NAiS&lt;p&gt;
-Source: http://www.mew-europe.com/.. en_ds_61210_0001.pdf</description>
+<deviceset name="JS-M1*" prefix="K">
+<description>&lt;b&gt;Automotive Ultra-Miniature Power Relay&lt;/b&gt; NAiS&lt;p&gt;
+Source: http://www.mew-europe.com/.. en_ds_61211_0000.pdf</description>
 <gates>
-<gate name="1" symbol="K" x="-10.16" y="0" addlevel="must"/>
+<gate name="1" symbol="K" x="-7.62" y="0" addlevel="must"/>
 <gate name="2" symbol="U" x="10.16" y="0" addlevel="always"/>
 </gates>
 <devices>
-<device name="" package="JJM1C">
+<device name="" package="JS-M">
 <connects>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
@@ -13887,11 +13879,53 @@ Source: http://www.mew-europe.com/.. en_ds_61210_0001.pdf</description>
 <connect gate="2" pin="S" pad="NO"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="MF" value="AROMAT/ MATSUSHITA" constant="no"/>
-<attribute name="MPN" value="JJM1-12V" constant="no"/>
+<technology name="-12V-4">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="JSM1-12V-4" constant="no"/>
+<attribute name="OC_FARNELL" value="910338" constant="no"/>
+<attribute name="OC_NEWARK" value="13P4552" constant="no"/>
+</technology>
+<technology name="-12V-5">
+<attribute name="MF" value="FARNELL" constant="no"/>
+<attribute name="MPN" value="JSM1-12V-5" constant="no"/>
+<attribute name="OC_FARNELL" value="910351" constant="no"/>
+<attribute name="OC_NEWARK" value="14J1764" constant="no"/>
+</technology>
+<technology name="-9V-4">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
 <attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="10C7318" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="-9V-5">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="F-12V-4">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="F-12V-5">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="F-9V-4">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
+</technology>
+<technology name="F-9V-5">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+<attribute name="OC_NEWARK" value="unknown" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14826,7 +14860,7 @@ Type: &lt;b&gt;SPC4077 / SPC 4078&lt;/b&gt;&lt;p&gt;</description>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="R1" library="rcl" deviceset="R-EU_" device="0204/7" value="10k"/>
-<part name="K1" library="relay" deviceset="JJM1-12V" device=""/>
+<part name="K1" library="relay" deviceset="JS-M1*" device="" technology="-12V-4" value="JS-M1-12V-4"/>
 <part name="T1" library="transistor" deviceset="BC337" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
